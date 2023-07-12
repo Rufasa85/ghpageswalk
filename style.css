@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Papyrus", cursive;
+}
+
+header,
+footer {
+  background-color: deepskyblue;
+  height: 5vh;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+
+}
+a{
+    padding:5px;
+    margin:0 200px;
+}
+main {
+  min-height: 90vh;
+  margin-top: 5vh;
+  background-color: deeppink;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+figcaption,h2{
+    text-align: center;
+}
+form {
+    border:5px solid chartreuse;
+    border-radius:10px;
+    width:500px;
+    margin:10px auto
+}
+input {
+    display: block;
+    width:460px;
+    padding:5px;
+    margin:10px;
+}
